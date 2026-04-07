@@ -97,7 +97,7 @@ ul  { list-style: none; }
   flex-shrink: 0;
 }
 
-/* search toggle - pure CSS checkbox */
+/* search toggle */
 .search-toggle { display: none; }
 
 .search-wrap {
@@ -657,7 +657,7 @@ ul  { list-style: none; }
   font-weight: 300;
 }
 
-/* ─── HUB / ARTICLE CARDS ─── */
+/* ─── HUB ─── */
 
 .hub-grid {
   display: grid;
@@ -1514,7 +1514,6 @@ ul  { list-style: none; }
   gap: 0.5rem;
 }
 
-/* ─── RESPONSIVE ─── */
 
 @media (max-width: 900px) {
   .main-split { grid-template-columns: 1fr; height: auto; }
